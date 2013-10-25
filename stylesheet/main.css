@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+	font-family: Helvetica, Verdana, sans-serif;
+}
+
+#map {
+	float: right;
+	width: 30%;
+}
+
+#text {
+	background-color: white;
+	float: left;
+	width: 70%;
+}
+
+#text #content, #text #imprint {
+	float: left;
+	overflow: auto;
+	padding: 5px;
+	width: 65%;
+}
+
+#text #imprint {
+	float: right;
+	width: 30%;
+	background-color: #eeeeee;
+}
+
+#text #navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#text #navigation ul li, #text #navigation ul li:first-child:HOVER {
+	float: left;
+	padding: 10px 20px;
+	background-color: #eeeeee;
+}
+
+#text #navigation ul li:HOVER, #text #navigation ul li.current {
+	background-color: #dddddd;
+}
+
+.navigation-entry {
+	cursor: pointer;
+}
