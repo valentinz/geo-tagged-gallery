@@ -177,3 +177,4 @@ function setDay(dayObject) {
 	}
 }
 
+Galleria.raise = function( msg, fatal ) {}
